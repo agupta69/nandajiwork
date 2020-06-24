@@ -1,6 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import akash from '../asserts/logo192.png';
+//import akash from '../asserts/logo192.png';
 
 export default function CenteredGrid() {
     const mystyle = {
