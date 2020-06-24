@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Header from './components/header';
+import Test from './components/test';
+import Login from './components/login';
+import Tabs from './components/tabs';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <Header/>
+    
+ </React.StrictMode>,
   document.getElementById('root')
 );
 
