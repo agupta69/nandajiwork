@@ -73,7 +73,7 @@ const handleClose = () => {
        <Grid item xs={3}>
        <div style={{marginLeft:'30px'}}>
       <Box width={200} height={40}>
-       <Image imageStyle={{height:'50%',width:'100%'}}  src="http://localhost:3000/logo.jpg"
+       <Image imageStyle={{height:'50%',width:'100%'}}  src={window.location.origin+"/logo.jpg"}
       />
        </Box>
      

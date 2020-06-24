@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     width: '100%',
     backgroundColor: theme.palette.background.paper,
-    backgroundImage:"url('http://localhost:3000/ai3.jpg')",
+    backgroundImage:"url('/ai3.jpg')",
     backgroundSize:'auto',
     //filter: 'blur(2px)',
     width: '100%',
